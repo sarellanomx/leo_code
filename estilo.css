@@ -1,0 +1,59 @@
+body {
+  background-image: url('https://img.freepik.com/foto-gratis/fiesta-halloween_23-2148603731.jpg?w=1800&t=st=1708406755~exp=1708407355~hmac=6347b435bbb54f6a137c2e47bdcded3747cc64c82426c4b85ca8f9a210d15e08');
+  background-size: cover; /* Hace que la imagen cubra completamente el área */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+header {
+  background: rgba(0,0,0,0.7); 				/*fondo de menu*/
+  width: 98%;
+  position: fixed;					/*se mantenga fijo */
+  z-index: 1000; 							/*especificar el orden en que se amontonan los elementos*/
+  padding: 10px;
+  height: 70px;       /* altura del elemento*/
+}
+
+nav {
+  float: left; 								/*que el menu este a la izquierda*/
+}
+
+nav ul {
+  list-style: none; 						/*que no tenga viñetas */
+  overflow: hidden; 						/*corrije errores y los oculta*/
+}
+
+nav ul li {
+  float: left; 								/*que se encuentren a la izquierda y no abajo*/
+  font-family: Arial, sans-serif; 			/*cambio de letra*/
+  font-size: 16px; 							/*tamaño de letra*/
+}
+
+nav ul li a {
+  display: block; 							/*convertimos en bloque*/
+  padding: 10px; 							/*agregamos margen*/
+  color: #fff; 								/*cambia color*/
+  text-decoration: none; 					/*sin utilizar decoracion*/
+}
+
+nav ul li:hover { 							/*pasar sobre un elemnto*/
+  background: #eca023; 						/*cambia color*/
+}
+
+section {
+  padding: 100px 40px; /* Incrementado el padding para dar espacio al menú fijo */
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+}
+
+table {
+width: 800px;
+border: 1px solid  #fff;
+text-align: left;
+padding: 10px;
+}
+
+.imagen {
+  padding: 20px;
+}
